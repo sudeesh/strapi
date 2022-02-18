@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accessories",
+  "info": {
+    "singularName": "accessory",
+    "pluralName": "accessories",
+    "displayName": "Accessories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "review": {
+      "type": "integer"
+    }
+  }
+}
